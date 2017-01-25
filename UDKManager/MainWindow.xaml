@@ -530,7 +530,7 @@
             </xcad:LayoutRoot>
         </xcad:DockingManager>
 
-        <TabControl x:Name="TypeTabControl" Margin="10,40,0,156" TabStripPlacement="Bottom" BorderBrush="Black" MinWidth="261" MinHeight="441" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" RenderTransformOrigin="0.5,0.5" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" HorizontalAlignment="Left" Width="261" MaxWidth="261" SelectionChanged="typeTabControl_SelectionChanged">
+        <TabControl x:Name="TypeTabControl" Margin="10,40,0,156" TabStripPlacement="Bottom" BorderBrush="Black" MinWidth="261" MinHeight="441" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" RenderTransformOrigin="0.5,0.5" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" HorizontalAlignment="Left" Width="261" MaxWidth="261">
             <TabControl.LayoutTransform>
                 <TransformGroup>
                     <ScaleTransform/>

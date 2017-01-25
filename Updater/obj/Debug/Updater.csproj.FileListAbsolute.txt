@@ -38,5 +38,3 @@ C:\Users\Lin\Documents\GitHub\ProjectManager\Updater\bin\Debug\Ionic.Zip.dll
 C:\Users\Lin\Documents\GitHub\ProjectManager\Updater\bin\Debug\Ionic.Zip.xml
 C:\Users\Lin\Documents\GitHub\ProjectManager\Updater\obj\Debug\Updater.exe
 C:\Users\Lin\Documents\GitHub\ProjectManager\Updater\obj\Debug\Updater.pdb
-C:\Users\Lin\Documents\GitHub\UDKManager\Updater\obj\Debug\Updater.exe
-C:\Users\Lin\Documents\GitHub\UDKManager\Updater\obj\Debug\Updater.pdb

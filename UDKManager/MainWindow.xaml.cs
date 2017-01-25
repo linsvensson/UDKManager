@@ -28,6 +28,7 @@ namespace ZerO
     /// </summary>
     public partial class MainWindow
     {
+        #region Variables
         private readonly string[] _zoomFactors = { "-6", "-4", "-2", "0", "2", "4", "6" };
         private readonly string[] _functionStrings = { "defaultproperties", "function", "simulated", "static", "exec", "state" };
         private readonly List<TreeViewItem> _expandedFolders = new List<TreeViewItem>();
@@ -41,7 +42,9 @@ namespace ZerO
         private TextDocument _lastDocument;
 
         public Updater Updater { get; set; }
+        #endregion
 
+        #region MainWindow
         public MainWindow()
         {
             InitializeComponent();
@@ -308,8 +311,84 @@ namespace ZerO
             e.Handled = true;
         }
 
-        private void typeTabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        /// <summary>
+        /// MainWindow Closing
+        /// </summary>
+        protected override void OnClosing(CancelEventArgs e)
         {
+            try
+            {
+                if (Settings.Default.LastTextFiles != null)
+                    Settings.Default.LastTextFiles.Clear();
+
+                if (Settings.Default.LastTextFiles == null)
+                    Settings.Default.LastTextFiles = new StringCollection();
+
+                foreach (var t in TextEditor.AllOpenDocs.Where(t => !string.IsNullOrEmpty(t.FilePath)))
+                    Settings.Default.LastTextFiles.Add(t.FilePath);
+
+                Settings.Default.Save();
+            }
+            catch (Exception ex) { Globals.Logger.Error("Error when saving current session: " + ex.Message); }
+
+            try { TextEditor.CloseAllTabs(); }
+            catch (Exception ex) { Globals.Logger.Error("Error when shutting down (you can probably ignore this if it terminated correctly: " + ex.Message); }
+
+            base.OnClosing(e);
+            Shutdown();
+        }
+
+        /// <summary>
+        /// MainWindow ÜBERSHUTDOWN
+        /// </summary>
+        public void Shutdown()
+        {
+            Globals.Logger.Init("Shutting down...");
+
+            if (Globals.MsgBox != null) Globals.MsgBox.Close();
+            if (Globals.FolderBrowser != null) Globals.FolderBrowser.Close();
+            if (Globals.CWindow != null) Globals.CWindow.Close();
+            if (Globals.SettingsWindow != null) Globals.SettingsWindow.Close();
+
+            Application.Current.Shutdown();
+        }
+        #endregion
+
+        #region Control Events
+        private void compileButton_Click(object sender, RoutedEventArgs e)
+        {
+            //TextEditor.AutoFormatCode();
+            try
+            {
+                if (Globals.DirectoryEntered)
+                {
+                    if (!string.IsNullOrWhiteSpace(Globals.ExeFile))
+                    {
+                        Globals.Open(Globals.ExeFile, "make");
+                        Globals.Logger.Init("Compiling scripts...");
+                    }
+
+                    else
+                        Globals.Logger.Error("Exe file not found, cannot compile");
+
+                }
+                else
+                    Globals.NoRoot();
+            }
+
+            catch (Exception ex) { Globals.Logger.Error("Error when trying to compile: " + ex.Message); }
+        }
+
+        private void settingsButton_Click(object sender, RoutedEventArgs e)
+        {
+            try { Globals.SettingsWindow.Show(this); }
+            catch (Exception ex) { Globals.Logger.Error("Error opening settings window: " + ex.Message); }
+        }
+
+        private void aboutButton_Click(object sender, RoutedEventArgs e)
+        {
+            try { Globals.CWindow.ShowAbout(this); }
+            catch (Exception ex) { Globals.Logger.Error("Error opening about window: " + ex.Message); }
         }
 
         /// <summary>
@@ -386,84 +465,112 @@ namespace ZerO
             ExploreScript();
         }
 
-        /// <summary>
-        /// MainWindow Closing
-        /// </summary>
-        protected override void OnClosing(CancelEventArgs e)
+        private void lastLogMenuItem_Click(object sender, RoutedEventArgs e)
         {
+            if (!Globals.DirectoryEntered) return;
+
             try
             {
-                if (Settings.Default.LastTextFiles != null)
-                    Settings.Default.LastTextFiles.Clear();
+                Process.Start(Globals.RootDirectory + "/UDKGame/Logs/Launch.log");
+                Globals.Logger.Init("Opening last log item...");
+            }
+            catch (Exception ex)
+            {
+                Globals.Logger.Error("Error opening last log item: " + ex.Message);
+            }
+        }
 
-                if (Settings.Default.LastTextFiles == null)
-                    Settings.Default.LastTextFiles = new StringCollection();
+        private void browseTreeView_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key != Key.Delete) return;
+            try
+            {
+                if (!Globals.DirectoryEntered) return;
 
-                foreach (var t in TextEditor.AllOpenDocs.Where(t => !string.IsNullOrEmpty(t.FilePath)))
-                    Settings.Default.LastTextFiles.Add(t.FilePath);
+                var item = Globals.VisualUpwardSearch(e.OriginalSource as DependencyObject);
 
+                if (BrowseTreeView.Items.Count == 0) return;
+                if (item == null) return;
+
+                switch (item.Tag.ToString())
+                {
+                    case "project":
+                        deleteProject_Click(null, null);
+                        break;
+                    case "class":
+                        deleteClass_Click(null, null);
+                        break;
+                }
+            }
+
+            catch (Exception ex) { Globals.Logger.Error(ex.Message); }
+        }
+
+        private void zoomCB_DropDownClosed(object sender, EventArgs e)
+        {
+            var size = 0;
+
+            for (int i = 0; i < TextEditor.AllOpenDocs.Count; i++)
+            {
+                switch (ZoomComboBox.SelectedValue.ToString())
+                {
+                    case "-6":
+                        size = -6;
+                        break;
+
+                    case "-4":
+                        size = -4;
+                        break;
+
+                    case "-2":
+                        size = -2;
+                        break;
+
+                    case "0":
+                        size = 0;
+                        break;
+
+                    case "2":
+                        size = 2;
+                        break;
+
+                    case "4":
+                        size = 4;
+                        break;
+
+                    case "6":
+                        size = 6;
+                        break;
+                }
+
+                TextEditor.AllOpenDocs[i].Scintilla.ZoomFactor = size;
+
+                Settings.Default.ZoomFactor = size;
                 Settings.Default.Save();
             }
-            catch (Exception ex) { Globals.Logger.Error("Error when saving current session: " + ex.Message); }
-
-            try { TextEditor.CloseAllTabs(); }
-            catch (Exception ex) { Globals.Logger.Error("Error when shutting down (you can probably ignore this if it terminated correctly: " + ex.Message); }
-
-            base.OnClosing(e);
-            Shutdown();
         }
 
-        /// <summary>
-        /// MainWindow ÜBERSHUTDOWN
-        /// </summary>
-        public void Shutdown()
+        public void box_DropDownClosed(object sender, EventArgs e)
         {
-            Globals.Logger.Init("Shutting down...");
-
-            if (Globals.MsgBox != null) Globals.MsgBox.Close();
-            if (Globals.FolderBrowser != null) Globals.FolderBrowser.Close();
-            if (Globals.CWindow != null) Globals.CWindow.Close();
-            if (Globals.SettingsWindow != null) Globals.SettingsWindow.Close();
-
-            Application.Current.Shutdown();
-        }
-
-        private void compileButton_Click(object sender, RoutedEventArgs e)
-        {
-            //TextEditor.AutoFormatCode();
             try
             {
-                if (Globals.DirectoryEntered)
-                {
-                    if (!string.IsNullOrWhiteSpace(Globals.ExeFile))
-                    {
-                        Globals.Open(Globals.ExeFile, "make");
-                        Globals.Logger.Init("Compiling scripts...");
-                    }
+                var box = sender as ComboBox;
+                var item = box?.SelectedItem as Function;
 
-                    else
-                        Globals.Logger.Error("Exe file not found, cannot compile");
+                if (item == null) return;
+                //box.Text = item.Content;
 
-                }
-                else
-                    Globals.NoRoot();
+                if (!(bool)box.Tag) return;
+                TextEditor.GetActiveDoc.SetFocus();
+                TextEditor.GetActiveDoc.Scintilla.GoTo.Line(item.Pos);
+                TextEditor.GetActiveDoc.Scintilla.Scrolling.ScrollToLine(item.Pos);
             }
 
-            catch (Exception ex) { Globals.Logger.Error("Error when trying to compile: " + ex.Message); }
+            catch (Exception ex) { Globals.Logger.Error(ex.Message + ", GetActiveDoc == null"); }
         }
+        #endregion
 
-        private void settingsButton_Click(object sender, RoutedEventArgs e)
-        {
-            try { Globals.SettingsWindow.Show(this); }
-            catch (Exception ex) { Globals.Logger.Error("Error opening settings window: " + ex.Message); }
-        }
-
-        private void aboutButton_Click(object sender, RoutedEventArgs e)
-        {
-            try { Globals.CWindow.ShowAbout(this); }
-            catch (Exception ex) { Globals.Logger.Error("Error opening about window: " + ex.Message); }
-        }
-
+        #region Custom Functions
         /// <summary>
         /// Checks the active TextDocument for functions and events
         /// </summary>
@@ -485,13 +592,11 @@ namespace ZerO
 
                 if (activeDoc == null) return;
 
-                //exploreTreeView.Items.Clear();
                 activeDoc.FuncComboBox.Items.Clear();
 
                 _events = activeDoc.Scintilla.FindReplace.FindAll("event ", SearchFlags.WordStart);
                 _functions = activeDoc.Scintilla.FindReplace.FindAll("function ", SearchFlags.WordStart);
                 _states = activeDoc.Scintilla.FindReplace.FindAll("state ", SearchFlags.WordStart);
-
                 string id;
                 foreach (var function in _functions)
                     if (function.StartingLine.Text.StartsWith("simulated") ||
@@ -556,7 +661,7 @@ namespace ZerO
                 activeDoc.FuncComboBox.Items.Refresh();
                 activeDoc.FuncComboBox.Items.SortDescriptions.Clear();
                 activeDoc.FuncComboBox.Items.SortDescriptions.Add(new SortDescription("Tag", ListSortDirection.Ascending));
-                activeDoc.FuncComboBox.Items.SortDescriptions.Add(new SortDescription("ID", ListSortDirection.Ascending));
+                activeDoc.FuncComboBox.Items.SortDescriptions.Add(new SortDescription("Id", ListSortDirection.Ascending));
 
 
                 activeDoc.VarComboBox.Items.Clear();
@@ -587,7 +692,7 @@ namespace ZerO
                 activeDoc.VarComboBox.Items.Refresh();
                 activeDoc.VarComboBox.Items.SortDescriptions.Clear();
                 activeDoc.VarComboBox.Items.SortDescriptions.Add(new SortDescription("Tag", ListSortDirection.Ascending));
-                activeDoc.VarComboBox.Items.SortDescriptions.Add(new SortDescription("ID", ListSortDirection.Ascending));
+                activeDoc.VarComboBox.Items.SortDescriptions.Add(new SortDescription("Id", ListSortDirection.Ascending));
             }
 
             catch (Exception ex) { Globals.Logger.Error("Cannot load projects and/or classes: " + ex.Message); }
@@ -608,7 +713,6 @@ namespace ZerO
 
                     if (!Directory.Exists(dir))
                         Directory.CreateDirectory(dir);
-
 
                     var newCurrentDirectory = new DirectoryInfo(dir);
 
@@ -803,6 +907,7 @@ namespace ZerO
             var offset = tvi.TransformToAncestor(scroll).Transform(new Point(0, 0));
             scroll.ScrollToVerticalOffset(offset.Y);
         }
+        #endregion
 
         #region Browse
         private void browseTreeView_Loaded(object sender, RoutedEventArgs e)
@@ -1441,110 +1546,5 @@ namespace ZerO
             catch (Exception ex) { Globals.Logger.Error("Error trying to delete testmap: " + ex.Message); }
         }
         #endregion
-
-        //private string time;
-        private void lastLogMenuItem_Click(object sender, RoutedEventArgs e)
-        {
-            if (!Globals.DirectoryEntered) return;
-
-            try
-            {
-                Process.Start(Globals.RootDirectory + "/UDKGame/Logs/Launch.log");
-                Globals.Logger.Init("Opening last log item...");
-            }
-            catch (Exception ex)
-            {
-                Globals.Logger.Error("Error opening last log item: " + ex.Message);
-            }
-        }
-
-        private void browseTreeView_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.Key != Key.Delete) return;
-            try
-            {
-                if (!Globals.DirectoryEntered) return;
-
-                var item = Globals.VisualUpwardSearch(e.OriginalSource as DependencyObject);
-
-                if (BrowseTreeView.Items.Count == 0) return;
-                if (item == null) return;
-
-                switch (item.Tag.ToString())
-                {
-                    case "project":
-                        deleteProject_Click(null, null);
-                        break;
-                    case "class":
-                        deleteClass_Click(null, null);
-                        break;
-                }
-            }
-
-            catch (Exception ex) { Globals.Logger.Error(ex.Message); }
-        }
-
-        private void zoomCB_DropDownClosed(object sender, EventArgs e)
-        {
-            var size = 0;
-
-            for (int i = 0; i < TextEditor.AllOpenDocs.Count; i++)
-            {
-                switch (ZoomComboBox.SelectedValue.ToString())
-                {
-                    case "-6":
-                        size = -6;
-                    break;
-
-                    case "-4":
-                        size = -4;
-                        break;
-
-                    case "-2":
-                        size = -2;
-                        break;
-
-                    case "0":
-                        size = 0;
-                        break;
-
-                    case "2":
-                        size = 2;
-                        break;
-
-                    case "4":
-                        size = 4;
-                        break;
-
-                    case "6":
-                        size = 6;
-                        break;
-                }
-
-                TextEditor.AllOpenDocs[i].Scintilla.ZoomFactor = size;
-
-                Settings.Default.ZoomFactor = size;
-                Settings.Default.Save();
-            }
-        }
-
-        public void box_DropDownClosed(object sender, EventArgs e)
-        {
-            try
-            {
-                var box = sender as ComboBox;
-                var item = box?.SelectedItem as Function;
-
-                if (item == null) return;
-                //box.Text = item.Content;
-
-                if (!(bool)box.Tag) return;
-                TextEditor.GetActiveDoc.SetFocus();
-                TextEditor.GetActiveDoc.Scintilla.GoTo.Line(item.Pos);
-                TextEditor.GetActiveDoc.Scintilla.Scrolling.ScrollToLine(item.Pos);
-            }
-
-            catch (Exception ex) { Globals.Logger.Error(ex.Message + ", GetActiveDoc == null"); }
-        }
     }
 }
