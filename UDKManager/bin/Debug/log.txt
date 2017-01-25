@@ -1,0 +1,6 @@
+01/24/2017 21:09:37|TRACE|Application starting...
+01/24/2017 21:09:51|TRACE|User  on machine ENGELBREKT
+01/24/2017 21:09:53|WARN|UDK Root folder not set.
+01/24/2017 21:09:53|WARN|Maps folder not set.
+01/24/2017 21:10:22|WARN|No UDK root folder found, go to settings to set one.
+01/24/2017 21:10:28|WARN|No UDK root folder found, go to settings to set one.

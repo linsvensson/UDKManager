@@ -1,0 +1,20 @@
+﻿PinkPoo Editor
+
+
+winexe
+C#
+.cs
+C:\Users\Lin\Documents\GitHub\ProjectManager\ProjectManager\obj\Debug\
+ZerO
+none
+false
+DEBUG;TRACE
+C:\Users\Lin\Documents\GitHub\ProjectManager\ProjectManager\App.xaml
+131767369841
+1-1985302666
+311656819863
+32-377368772
+UserControls\AboutUC.xaml;UserControls\ChooserUC.xaml;UserControls\InputUC.xaml;UserControls\NewClassUC.xaml;UserControls\TestMapUC.xaml;UserControls\UpdateUC.xaml;Windows\ConsoleWindow.xaml;Windows\TextDocument.xaml;Windows\CustomWindow.xaml;Windows\CMessageBox.xaml;Windows\FolderBrowser.xaml;MainWindow.xaml;Windows\SettingsWindow.xaml;
+resources\splash.png
+False
+

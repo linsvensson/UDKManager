@@ -1,0 +1,193 @@
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo.csprojResolveAssemblyReference.cache
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo.csproj.ResolveComReference.cache
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\AboutUC.baml
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\ChooserUC.baml
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\InputUC.baml
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\NewClassUC.baml
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\TestMapUC.baml
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\UpdateUC.baml
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\CustomWindow.baml
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\CMessageBox.baml
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\FolderBrowser.baml
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\SettingsWindow.baml
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\AboutUC.g.cs
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\ChooserUC.g.cs
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\InputUC.g.cs
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\NewClassUC.g.cs
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\TestMapUC.g.cs
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\UpdateUC.g.cs
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\TextDocument.g.cs
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\CustomWindow.g.cs
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\CMessageBox.g.cs
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\FolderBrowser.g.cs
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\SettingsWindow.g.cs
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\App.g.cs
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo_Content.g.cs
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo_MarkupCompile.cache
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo_MarkupCompile.lref
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo.csprojResolveAssemblyReference.cache
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Interop.IWshRuntimeLibrary.dll
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo.csproj.ResolveComReference.cache
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\AboutUC.baml
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\ChooserUC.baml
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\InputUC.baml
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\NewClassUC.baml
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\TestMapUC.baml
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\UpdateUC.baml
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\ConsoleWindow.baml
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\CustomWindow.baml
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\CMessageBox.baml
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\FolderBrowser.baml
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\SettingsWindow.baml
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\AboutUC.g.cs
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\ChooserUC.g.cs
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\InputUC.g.cs
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\NewClassUC.g.cs
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\TestMapUC.g.cs
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\UpdateUC.g.cs
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\ConsoleWindow.g.cs
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\TextDocument.g.cs
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\CustomWindow.g.cs
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\CMessageBox.g.cs
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\FolderBrowser.g.cs
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\SettingsWindow.g.cs
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\App.g.cs
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo_Content.g.cs
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo_MarkupCompile.cache
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo_MarkupCompile.lref
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\UnrealScript.xml
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\SciLexer64.dll
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\App.xaml.cs
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\PinkPoo.exe.config
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\PinkPoo.exe
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\PinkPoo.pdb
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\AvalonDock.dll
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\Ionic.Zip.dll
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\MahApps.Metro.dll
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\NLog.dll
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\ScintillaNET.dll
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\System.Windows.Interactivity.dll
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\AvalonDock.pdb
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\Ionic.Zip.xml
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\NLog.xml
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\de\AvalonDock.resources.dll
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\es\AvalonDock.resources.dll
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\fr\AvalonDock.resources.dll
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\hu\AvalonDock.resources.dll
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\it\AvalonDock.resources.dll
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\pt-BR\AvalonDock.resources.dll
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\ro\AvalonDock.resources.dll
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\ru\AvalonDock.resources.dll
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\sv\AvalonDock.resources.dll
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\zh-Hans\AvalonDock.resources.dll
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\Interop.IWshRuntimeLibrary.dll
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\MainWindow.g.cs
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\TextDocument.baml
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\MainWindow.baml
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo.g.resources
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\ZerO.Properties.Resources.resources
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo.csproj.GenerateResource.Cache
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo.exe
+D:\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo.pdb
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\PinkPoo.exe.config
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo.exe
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo.pdb
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\UnrealScript.xml
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\App.xaml.cs
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\SciLexer64.dll
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\PinkPoo.exe
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\PinkPoo.pdb
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\AvalonDock.dll
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\Ionic.Zip.dll
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\MahApps.Metro.dll
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\NLog.dll
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\AvalonDock.pdb
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\Ionic.Zip.xml
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\NLog.xml
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\de\AvalonDock.resources.dll
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\es\AvalonDock.resources.dll
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\fr\AvalonDock.resources.dll
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\hu\AvalonDock.resources.dll
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\it\AvalonDock.resources.dll
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\pt-BR\AvalonDock.resources.dll
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\ro\AvalonDock.resources.dll
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\ru\AvalonDock.resources.dll
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\sv\AvalonDock.resources.dll
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\zh-Hans\AvalonDock.resources.dll
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\ConsoleWindow.baml
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\ConsoleWindow.g.cs
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\MainWindow.g.cs
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\TextDocument.baml
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\MainWindow.baml
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo.g.resources
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\ZerO.Properties.Resources.resources
+C:\Users\Carolin\Dropbox\My Derp\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo.csproj.GenerateResource.Cache
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\UnrealScript.xml
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\SciLexer64.dll
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\App.xaml.cs
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\PinkPoo.exe.config
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\PinkPoo.exe
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\PinkPoo.pdb
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\AvalonDock.dll
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\Ionic.Zip.dll
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\MahApps.Metro.dll
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\NLog.dll
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\System.Windows.Interactivity.dll
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\AvalonDock.pdb
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\Ionic.Zip.xml
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\NLog.xml
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\de\AvalonDock.resources.dll
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\es\AvalonDock.resources.dll
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\fr\AvalonDock.resources.dll
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\hu\AvalonDock.resources.dll
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\it\AvalonDock.resources.dll
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\pt-BR\AvalonDock.resources.dll
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\ro\AvalonDock.resources.dll
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\ru\AvalonDock.resources.dll
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\sv\AvalonDock.resources.dll
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\zh-Hans\AvalonDock.resources.dll
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\bin\Debug\Interop.IWshRuntimeLibrary.dll
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo.csprojResolveAssemblyReference.cache
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Interop.IWshRuntimeLibrary.dll
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo.csproj.ResolveComReference.cache
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\AboutUC.baml
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\ChooserUC.baml
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\InputUC.baml
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\NewClassUC.baml
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\TestMapUC.baml
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\UpdateUC.baml
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\ConsoleWindow.baml
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\CustomWindow.baml
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\CMessageBox.baml
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\FolderBrowser.baml
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\SettingsWindow.baml
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\AboutUC.g.cs
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\ChooserUC.g.cs
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\InputUC.g.cs
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\NewClassUC.g.cs
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\TestMapUC.g.cs
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\UserControls\UpdateUC.g.cs
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\ConsoleWindow.g.cs
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\TextDocument.g.cs
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\CustomWindow.g.cs
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\CMessageBox.g.cs
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\FolderBrowser.g.cs
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\MainWindow.g.cs
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\SettingsWindow.g.cs
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\App.g.cs
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo_Content.g.cs
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo_MarkupCompile.cache
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo_MarkupCompile.lref
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\Windows\TextDocument.baml
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\MainWindow.baml
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo.g.resources
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\ZerO.Properties.Resources.resources
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo.csproj.GenerateResource.Cache
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo.exe
+D:\Dropbox\wow. much backup. many file\Programmering\Projects\ProjectManager\ProjectManager\obj\Debug\PinkPoo.pdb

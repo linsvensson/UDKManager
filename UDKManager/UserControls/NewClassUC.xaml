@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="ZerO.UserControls.NewClassUc"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        mc:Ignorable="d" Height="280" Width="350" IsEnabled="False">
+
+    <Grid Height="280" Width="350">
+        <RadioButton x:Name="EmptyRadioButton" Content="Empty" HorizontalAlignment="Left" Margin="7,98,0,0" VerticalAlignment="Top" Click="emptyRB_Click"/>
+        <RadioButton x:Name="ClassRadioButton" Content="Basic Class" HorizontalAlignment="Left" Margin="7,120,0,0" VerticalAlignment="Top" Checked="classRB_Checked"/>
+        <RadioButton x:Name="WeaponRadioButton" Content="Basic Weapon Class" HorizontalAlignment="Left" Margin="7,142,0,0" VerticalAlignment="Top" Checked="weaponRB_Checked"/>
+        <RadioButton x:Name="PawnRadioButton" Content="Basic Pawn Class" HorizontalAlignment="Left" Margin="176,98,0,0" VerticalAlignment="Top" Checked="pawnRB_Checked"/>
+        <RadioButton x:Name="PcRadioButton" Content="Basic PlayerController Class" HorizontalAlignment="Left" Margin="176,120,0,0" VerticalAlignment="Top" Checked="playerControllerRB_Checked"/>
+        <RadioButton x:Name="GameRadioButton" Content="Basic Game Class" HorizontalAlignment="Left" Margin="176,142,0,0" VerticalAlignment="Top" Checked="gameRB_Checked"/>
+
+        <Label x:Name="NameLabel" Content="Class:" HorizontalAlignment="Left" Margin="10,9,0,0" VerticalAlignment="Top" Width="59" FontWeight="Bold"/>
+        <TextBox x:Name="NameTextBox" HorizontalAlignment="Left" Height="23" Margin="75,9,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221"/>
+        <Label x:Name="ExtendsLabel" Content="Extends:" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="59" FontWeight="Bold"/>
+        <TextBox x:Name="ExtendsTextBox" HorizontalAlignment="Left" Height="23" Margin="75,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221"/>
+        <Separator HorizontalAlignment="Left" Height="100" Margin="7,35,0,0" VerticalAlignment="Top" Width="333"/>
+
+        <Separator HorizontalAlignment="Left" Height="100" Margin="10,120,0,0" VerticalAlignment="Top" Width="333"/>
+        <CheckBox x:Name="PostBeginCheckBox" Content="Include PostBeginPlay" HorizontalAlignment="Left" Margin="10,186,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="PreBeginCheckBox" Content="Include PreBeginPlay" HorizontalAlignment="Left" Margin="176,186,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="TickCheckBox" Content="Include Tick" HorizontalAlignment="Left" Margin="10,208,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="DefaultPropertiesCheckBox" Content="Include defaultproperties" HorizontalAlignment="Left" Margin="176,208,0,0" VerticalAlignment="Top"/>
+
+        <Button x:Name="CancelButton" Content="Cancel" Style="{DynamicResource SquareButtonStyle}" HorizontalAlignment="Left" Margin="176,245,0,0" VerticalAlignment="Top" Width="75" Click="cancelButton_Click"/>
+        <Button x:Name="OkButton" Content="Ok" Style="{DynamicResource SquareButtonStyle}" HorizontalAlignment="Left" Margin="265,245,0,0" VerticalAlignment="Top" Width="75" Click="okButton_Click"/>
+    </Grid>
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colours.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Red.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseDark.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+</UserControl>

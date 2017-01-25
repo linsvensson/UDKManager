@@ -1,0 +1,44 @@
+01/28/2014 00:06:47|TRACE|Application starting...
+
+01/28/2014 00:06:52|TRACE|User Carolin on machine ENGELBREKT
+01/28/2014 00:06:52|INFO|UDK directory found at D:\UDK\UDK-2013-07
+01/28/2014 00:06:53|INFO|Projects folder found at D:\UDK\UDK-2013-07\Development\Src\
+01/28/2014 00:06:53|INFO|UDK .exe found at D:\UDK\UDK-2013-07\Binaries\Win64\UDK.exe
+01/28/2014 00:06:53|INFO|UDK Maps folder has been set to D:\UDK\UDK-2013-07\UDKGame\Content\Maps
+01/28/2014 00:07:27|TRACE|Application starting...
+
+01/28/2014 00:07:31|TRACE|User Carolin on machine ENGELBREKT
+01/28/2014 00:07:32|INFO|UDK directory found at D:\UDK\UDK-2013-07
+01/28/2014 00:07:32|INFO|Projects folder found at D:\UDK\UDK-2013-07\Development\Src\
+01/28/2014 00:07:32|INFO|UDK .exe found at D:\UDK\UDK-2013-07\Binaries\Win64\UDK.exe
+01/28/2014 00:07:33|INFO|UDK Maps folder has been set to D:\UDK\UDK-2013-07\UDKGame\Content\Maps
+01/28/2014 10:41:07|TRACE|Application starting...
+
+01/28/2014 10:41:12|TRACE|User Carolin on machine ENGELBREKT
+01/28/2014 10:41:12|INFO|UDK directory found at D:\UDK\UDK-2013-07
+01/28/2014 10:41:12|INFO|Projects folder found at D:\UDK\UDK-2013-07\Development\Src\
+01/28/2014 10:41:13|INFO|UDK .exe found at D:\UDK\UDK-2013-07\Binaries\Win64\UDK.exe
+01/28/2014 10:41:13|INFO|UDK Maps folder has been set to D:\UDK\UDK-2013-07\UDKGame\Content\Maps
+01/28/2014 10:43:00|TRACE|Application starting...
+
+01/28/2014 10:43:04|TRACE|User Carolin on machine ENGELBREKT
+01/28/2014 10:43:05|INFO|UDK directory found at D:\UDK\UDK-2013-07
+01/28/2014 10:43:05|INFO|Projects folder found at D:\UDK\UDK-2013-07\Development\Src\
+01/28/2014 10:43:05|INFO|UDK .exe found at D:\UDK\UDK-2013-07\Binaries\Win64\UDK.exe
+01/28/2014 10:43:06|INFO|UDK Maps folder has been set to D:\UDK\UDK-2013-07\UDKGame\Content\Maps
+01/28/2014 10:43:54|TRACE|Application starting...
+
+01/28/2014 10:43:59|TRACE|User Carolin on machine ENGELBREKT
+01/28/2014 10:43:59|INFO|UDK directory found at D:\UDK\UDK-2013-07
+01/28/2014 10:44:00|INFO|Projects folder found at D:\UDK\UDK-2013-07\Development\Src\
+01/28/2014 10:44:00|INFO|UDK .exe found at D:\UDK\UDK-2013-07\Binaries\Win64\UDK.exe
+01/28/2014 10:44:00|INFO|UDK Maps folder has been set to D:\UDK\UDK-2013-07\UDKGame\Content\Maps
+07/20/2014 15:18:16|TRACE|Application starting...
+07/20/2014 15:18:21|TRACE|User Carolin on machine ENGELBREKT
+07/20/2014 15:18:30|INFO|Projects folder found at E:\UDK\UDK-2014-02\Development\Src
+07/20/2014 15:18:30|INFO|UDK directory has been set to E:\UDK\UDK-2014-02
+07/20/2014 15:18:30|INFO|UDK .exe found at E:\UDK\UDK-2014-02/Binaries/Win32/UDK.exe
+07/20/2014 15:18:34|INFO|UDK Maps folder has been set to E:\UDK\UDK-2014-02\UDKGame\Content\Maps
+07/20/2014 15:18:42|ERROR|Could not find the custom configuration file.
+07/20/2014 15:18:44|ERROR|Could not find the custom configuration file.
+07/20/2014 15:18:46|TRACE|Shutting down...
